@@ -1,13 +1,54 @@
-# Compiled Object files
+# C++ objects and libs
+
 *.slo
 *.lo
 *.o
-
-# Compiled Dynamic libraries
+*.a
+*.la
+*.lai
 *.so
-*.dylib
-
-# Compiled Static libraries
+*.so.*
 *.lai
 *.la
 *.a
+*.dll
+*.dylib
+*.obj
+Makefile*
+
+# Directories to ignore
+# ---------------------
+
+include/*
+include/*/*
+lib/*
+
+# generated module def and version header files
+mkspecs/modules/qt_*.pri
+mkspecs/modules-inst/
+
+# Qt specific
+.qmake.cache
+*.pro.user
+*.pro.shared
+moc_*.cpp
+*.moc
+*_resource.rc
+ui_*.h
+qrc_*.cpp
+
+*~
+*.pdb
+*.exe
+*.lib
+*.res
+*.exp
+*.manifest
+config.log
+tmp
+imports/*
+include
+tests/auto/cmake/build
+lib/
+mkspecs/
+qml/
