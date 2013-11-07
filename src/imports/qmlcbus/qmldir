@@ -1,0 +1,3 @@
+module Qt.CBus
+
+plugin declarative_qmlcbus
